@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    
+    <form name="calculator">
+
+      <input type="text" id="screenaccont" name="screenaccont" />
+      <input type="text" id="screen" name="screen" />
+
+      </br>
+      
+      <div class="buttons">
+        <input class="button" type="button" value=""  />
+        <input class="button" type="button" value="" />
+        <input class="button" type="button" value="C" onclick = "Clear()" />
+        <input class="button" id="backspace" type="button" value="" />
+      
+        <input class="button" type="button" value="7" 
+        onclick = "validateValue(value)" />
+        <input class="button" type="button" value="8" 
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="9"
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="/"
+        onclick = "addvalues(value)"/>
+
+        <input class="button" type="button" value="4"
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="5"
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="6"
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="*"
+        onclick = "addvalues(value)"/>
+
+        <input class="button" type="button" value="1"
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="2"
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="3"
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="-"
+        onclick = "addvalues(value)"/>
+
+        <input class="button" type="button" value="." 
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="0" 
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="=" 
+        onclick = "addvalues(value)"/>
+        <input class="button" type="button" value="+" 
+        onclick = "addvalues(value)"/>
+        
+      </div>
+    </form>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
