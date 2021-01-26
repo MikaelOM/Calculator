@@ -3,7 +3,7 @@
 </br>
 
 <h1 align="center">
-  <img src="Project/img/Calculator.gif">
+  <img src="project/img/Calculator.gif">
 </h1>
 
 </br>
