@@ -11,23 +11,25 @@
     <form name="calculator">
 
       <input type="text" id="screenaccont" name="screenaccont" />
-      <input type="text" id="screen" name="screen" />
+      <input type="text" id="screen" name="screen" onkeypress="validChar()" />
 
       </br>
       
       <div class="buttons">
-        <input class="button" type="button" value=""  />
-        <input class="button" type="button" value="" />
-        <input class="button" type="button" value="C" onclick = "Clear()" />
-        <input class="button" id="backspace" type="button" value="" />
-      
+        
+        <input class="button" id="doubleC" type="button" 
+        value="C" onclick = "Clear()" />
+        <input class="button" id="backspace" type="button" value="< ]" />
+        <input class="button" type="button" value="/"
+        onclick = "flow(value)"/>
+
         <input class="button" type="button" value="7" 
         onclick = "addvalues(value)" />
         <input class="button" type="button" value="8" 
         onclick = "addvalues(value)"/>
         <input class="button" type="button" value="9"
         onclick = "addvalues(value)"/>
-        <input class="button" type="button" value="/"
+        <input class="button" type="button" value="*"
         onclick = "flow(value)"/>
 
         <input class="button" type="button" value="4"
@@ -36,7 +38,7 @@
         onclick = "addvalues(value)"/>
         <input class="button" type="button" value="6"
         onclick = "addvalues(value)"/>
-        <input class="button" type="button" value="*"
+        <input class="button" type="button" value="-"
         onclick = "flow(value)"/>
 
         <input class="button" type="button" value="1"
@@ -45,17 +47,16 @@
         onclick = "addvalues(value)"/>
         <input class="button" type="button" value="3"
         onclick = "addvalues(value)"/>
-        <input class="button" type="button" value="-"
+        <input class="button" type="button" value="+" 
         onclick = "flow(value)"/>
 
         <input class="button" type="button" value="," 
         onclick = "addvalues(value)"/>
         <input class="button" type="button" value="0" 
         onclick = "addvalues(value)"/>
-        <input class="button" type="button" value="=" 
+        <input class="button " id="double"type="button" value="=" 
         onclick = "flow_result()"/>
-        <input class="button" type="button" value="+" 
-        onclick = "flow(value)"/>
+
         
       </div>
     </form>

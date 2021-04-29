@@ -83,6 +83,14 @@ input#screen:focus {
   grid-column-gap: 0.5%;
   grid-row-gap: 1%;
 }
+#doubleC {
+  grid-column-start: 1;
+  grid-column: span 2;
+}
+#double {
+  grid-column-start: 3;
+  grid-column: span 2;
+}
 
 .button {
   background-color: rgba(22, 22, 22, 0.801);
@@ -96,12 +104,4 @@ input#screen:focus {
 
 .button:hover {
   background-color: rgba(31, 104, 138, 0.349);
-}
-
-#backspace {
-  background-color: none;
-  background-image: url("../img/backspace2.svg");
-  background-repeat: no-repeat;
-
-  align-items: center;
 }
