@@ -3,10 +3,16 @@ let values = [],
     operation,
     result = 0;
 
-let validValues = () =>{
-      let caracters = [".", "*", "=","+", "-","/" ];
+let validChar=(evt)=>{
+  let theEvent = evt || window.event;
+  let key = theEvent.Keycode ||theEvent.which;
+  key = String.fromCharCode(key);
+  let regex = /^[0-9,.=+*/-]+$/;
+  if(!regex.test(key)){
+    theEvent.returnValue = false;
+    if(theEvent.preventDefault) theEvent.preventDefault();
+  }
 }
-
 let addvalues = (_value) =>{
    let screen = ( document.calculator.screen.value += _value);
    
