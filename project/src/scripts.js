@@ -25,7 +25,7 @@ let addvaluesofAcount = () => {
 
 let Clear = () =>{
   document.calculator.screenaccont.value ="";
-  document.calculator.screen.value = "";
+  document.calculator.screen.value = 0;
   values = [];
 }
 
