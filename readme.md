@@ -103,7 +103,8 @@ Abrir o arquivo index.html no navegador
 <img align="center" alt="Jugal Bhatt | Gmail" width="34px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Gmail.svg" />
 </a>
 [<img align="center" alt="bilgehangecici | Instagram" width="35px" src="https://thumbs.gfycat.com/OrnateOrneryFoal-max-1mb.gif" target="_blank" />][instagram]
+
 </div>
+ 
 [linkedin]:https://www.linkedin.com/in/mikael-magalhães
 [instagram]:https://www.instagram.com/mikael_henrique__/
-
